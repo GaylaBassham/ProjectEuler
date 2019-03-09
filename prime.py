@@ -8,7 +8,7 @@ def is_prime(i):
         return False
 
     max_div = math.ceil(math.sqrt(i))
-    for x in range(3, max_div, 2):
+    for x in range(1, max_div, 2):
         if i % x == 0:
             return False
 
